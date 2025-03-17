@@ -1,5 +1,5 @@
 {
-  "name": "my-turborepo",
+  "name": "3205_tz",
   "private": true,
   "scripts": {
     "build": "turbo run build",
