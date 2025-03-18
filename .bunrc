@@ -1,0 +1,10 @@
+{
+  "install": {
+    "peerDependencies": true,
+    "production": false
+  },
+  "test": {
+    "preload": "./test/setup.ts",
+    "coverage": true
+  }
+}
