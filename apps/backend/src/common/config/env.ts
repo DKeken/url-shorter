@@ -6,8 +6,6 @@ const envSchema = z.object({
     .default('development'),
   PORT: z.string().transform(Number).default('3000'),
   DATABASE_URL: z.string().url(),
-  JWT_SECRET: z.string().min(1),
-  JWT_EXPIRES_IN: z.string().default('1d'),
   CORS_ORIGIN: z.string().url().default('http://localhost:3000'),
   BASE_URL: z.string().url().default('http://localhost:3333'),
   REDIS_HOST: z.string().default('localhost'),
